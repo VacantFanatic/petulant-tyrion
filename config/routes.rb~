@@ -3,6 +3,6 @@
 
   resources :posts
 
-  root to: "welcome#index"
+  root "welcome#index"
   
 end
