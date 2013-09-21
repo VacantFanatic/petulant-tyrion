@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 group :development, :test do
   gem 'rspec-rails', '~> 2.0'
+  gem 'watchr'
 end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
