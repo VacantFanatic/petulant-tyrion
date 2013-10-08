@@ -3,11 +3,19 @@ source 'https://rubygems.org'
 group :development, :test do
   gem 'rspec-rails', '~> 2.0'
   gem 'watchr'
+  gem 'spork-rails', '4.0.0'
+  gem 'guard-spork', '1.5.0'
+  gem 'childprocess', '0.3.6'
+end
+
+group :test do
+  gem 'capybara', '2.1.0'
 end
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
+gem 'bootstrap-sass', '2.3.2.0'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
