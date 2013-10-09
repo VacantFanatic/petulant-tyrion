@@ -1,5 +1,9 @@
 Blog::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
+  
+  #speed up bcrypt in TST env
+  ActiveModel::SecurePassword.min_cost = true
+
 
   # The test environment is used exclusively to run your application's
   # test suite. You never need to work with it otherwise. Remember that
